@@ -1,0 +1,92 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700);
+
+body{    
+    font-family: 'Raleway', sans-serif;
+    background-image: url('https://freellustrustrations.s3.us-east-2.amazonaws.com/free-images/freeimg_47841037freejpg850.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 1380px 700px;
+}
+
+#em, #ps{
+    text-transform: capitalize;
+    font-weight: bold;
+    color: darkviolet;
+    margin-left: 8px;
+}
+
+.container{
+    background-color:whitesmoke;
+    overflow:auto;
+    height: 400px;
+    width : 450px;    
+    margin: 100px auto;
+    border-radius: 20px;
+    box-shadow: 6px 11px 35px 5px rgba(0, 0, 0, 0.168);
+
+}
+
+#h2{
+    padding-top: 40px;
+    color: darkviolet;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+
+#em_in{
+    height: 200;
+    width: 70%;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+#em_in:focus, #ps_in:focus {
+        border: 2px solid rgba(0, 0, 0, 0.18) !important;
+        
+    }
+
+#ps_in{
+    height: 200;
+    width: 70%;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    outline: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+#sub{
+        cursor: pointer;
+        border-radius: 18px;
+        color: #fff;
+        background: linear-gradient(to right, #9C27B0, #E040FB);
+        border: 0;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        font-family: 'Ubuntu', sans-serif;
+        margin-top: 10px;
+        margin-left: 35%;
+        font-size: 13px;
+        box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
+
+form.form1 {
+    padding-top: 40px;
+}
