@@ -3,9 +3,9 @@
 body{    
     font-family: 'Raleway', sans-serif;
     background-image: url('https://freellustrustrations.s3.us-east-2.amazonaws.com/free-images/freeimg_47841037freejpg850.jpg');
-    background-attachment: fixed;
+    background-attachment:scroll;
     background-repeat: no-repeat;
-    background-size: 1380px 700px;
+    background-size: 1368px auto;
 }
 
 #em, #ps{
@@ -22,7 +22,7 @@ body{
     width : 450px;    
     margin: 100px auto;
     border-radius: 20px;
-    box-shadow: 6px 11px 35px 5px rgba(0, 0, 0, 0.168);
+    box-shadow: 10px 11px 35px 5px rgba(0, 0, 0, 0.168);
 
 }
 
@@ -87,6 +87,6 @@ body{
         box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
 }
 
-form.form1 {
+.form1 {
     padding-top: 40px;
 }
